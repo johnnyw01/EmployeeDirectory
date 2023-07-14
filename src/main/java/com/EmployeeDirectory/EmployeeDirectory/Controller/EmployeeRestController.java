@@ -1,6 +1,5 @@
 package com.EmployeeDirectory.EmployeeDirectory.Controller;
 
-import com.EmployeeDirectory.EmployeeDirectory.DAO.EmployeeDAO;
 import com.EmployeeDirectory.EmployeeDirectory.Entity.Employee;
 import com.EmployeeDirectory.EmployeeDirectory.Service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
