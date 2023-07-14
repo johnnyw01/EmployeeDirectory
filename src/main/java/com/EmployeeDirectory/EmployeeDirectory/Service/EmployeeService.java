@@ -1,12 +1,11 @@
-package com.EmployeeDirectory.EmployeeDirectory.DAO;
+package com.EmployeeDirectory.EmployeeDirectory.Service;
 
 import com.EmployeeDirectory.EmployeeDirectory.Entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
     List<Employee> findAll();
-
     Employee findById(int theId);
 
     Employee save(Employee theEmployee);
